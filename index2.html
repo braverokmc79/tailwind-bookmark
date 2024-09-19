@@ -19,9 +19,7 @@
 <body class="overflow-x-hidden">
 
 
-    <nav class="container relative mx-auto  p-6 ">
-        
-        
+    <nav class="container relative mx-auto  p-6 ">      
       <div class="flex items-center justify-between space-x-20 my-6">     
            <!-- 로고 -->
            <div class="z-30">
@@ -69,8 +67,46 @@
       </div>
     </nav>
 
+    <!-- Hero Section -->
+
+    <section id="hero">
+      <div class="container flex flex-col-reverse  mx-auto p-6 lg:flex-row lg:mb-0 ">
+
+        <div class="flex flex-col space-y-10 md:w-1/2 ">
+            <h1 class="text-3xl font-bold lg:text-6xl lg:text-left ">간단한 북마크 관리자</h1>
+            <p class="max-w-md mx-auto text-lg text-center text-gray-400 lg:text-2xl 
+            lg:text-left lg:mt-0  lg:mx-0 lg:max-w-lg lg:p-0">
+              즐겨찾는 웹사이트를 정리할 수 있는 깨끗하고 간단한 인터페이스입니다.
+              새 브라우저 탭을 열면 사이트가 즉시 로드됩니다. 무료로 사용해 보세요.
+            </p>
+            <div class="flex flex-row justify-between space-x-5 px-5 
+                lg:justify-start lg:px-0
+            "> 
+               <button class="bg-softBlue p-5 rounded-md  text-white font-semibold text-left
+               shadow-sm hover:bg-white  hover:text-gray-800   
+               border-softBlue            
+               border-2
+               ">
+                Chrome에서 다운로드
+               </button>
+               <button class="bg-gray-300  p-5 rounded-md  text-gray-800 font-semibold text-left
+                shadow-sm hover:bg-gray-50 hover:board-gray-600 border-2
+               ">
+                Firefox에서 다운로드
+               </button>
+            </div>
+        </div>
 
 
+        <div class="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
+           <div class="bg-hero"></div>
+            <img src="images/illustration-hero.svg"
+            class="relative z-10 lg:top-24 xl:top-0 overflow-x-visible"
+            >
+        </div>
+
+      </div>
+    </section>
 
 
 
